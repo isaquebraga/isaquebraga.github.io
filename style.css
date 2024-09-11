@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
+html {
     margin: 0;
-    padding: 50px;
     box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
     background-color: #e9edc9;
     font-family: 'Poppins';
     background-image: url(/img/background.svg);
@@ -154,87 +157,4 @@ body {
 
 .stack ul li img {
     height: 50px;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        background-size: 200% 100%;
-    }
-
-    .about-me {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .about-me img {
-        height: 100%;
-    }
-    
-    .about-me-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    .about-me-text h1 {
-        font-size: 40px;
-    }
-    
-    .about-me-text p {
-        font-weight: 500;
-        margin: 0;
-        text-indent: 1em;
-        text-align: justify;
-    }
-    
-    .contact div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 13px;
-        height: max-content;
-        width: 80%;
-    }
-
-    .contact-list {
-        padding: 0;
-    }
-    
-    .section-list {
-        padding: 0;
-    }
-    
-    .section-list h1 {
-        margin-bottom: 10px;
-    }
-
-    .education h1 {
-        margin-top: 20px;
-    }
-    
-    .section-list-text {
-        margin-bottom: 25px;
-        padding: 0;
-        text-indent: 1em;
-        text-align: justify;
-    }
-
-    .education ul, .work ul {
-        padding: 0;
-    }
-    
-    .stack ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;   
-        width: max-content;
-    }
-    
-    .stack ul li {
-        padding: 0;
-        padding-bottom: 50px;
-        width: 100%;
-    }
 }
