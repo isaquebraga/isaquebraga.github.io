@@ -192,6 +192,11 @@ body {
         flex-direction: column;
         height: max-content;
         width: 75%;
+        margin-bottom: 15px;
+    }
+
+    .contact-list-item {
+        gap: 5px;
     }
 
     .contact-list-item img {
@@ -224,7 +229,16 @@ body {
         margin-bottom: 0;
     }
 
+    .section-list h1 {
+        font-size: 30px;
+    }
+
+    .section-list-title {
+        font-size: 15px;
+    }
+
     .section-list-text {
+        font-size: 15px;
         padding-left: 10px;
     }
 
