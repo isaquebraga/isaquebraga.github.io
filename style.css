@@ -158,3 +158,60 @@ body {
 .stack ul li img {
     height: 50px;
 }
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-size: 150% 200%;
+    }
+
+    .about-me {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .about-me img {
+        height: 100%;
+    }
+
+    .contact div {
+        flex-direction: column;
+        height: max-content;
+        width: 80%;
+    }
+
+    .contact-list {
+        padding-left: 0;
+        font-size: 13px;
+    }
+
+    .section-list {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+
+    .section-list ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .section-list-text {
+        padding-left: 10px;
+    }
+
+    .stack ul{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+
+    .stack ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .stack ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
