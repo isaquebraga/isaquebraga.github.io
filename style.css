@@ -194,8 +194,19 @@ body {
         width: 75%;
     }
 
+    .contact-list-item img {
+        height: 15px;
+    }
+
     .contact-list-item span {
-        /* display: none; */
+        font-weight: 700;
+        margin-right: -8px;
+    }
+    
+    .contact-list-item a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #000000;
     }
 
     .contact-list {
