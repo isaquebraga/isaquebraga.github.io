@@ -160,7 +160,15 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
     body {
+        padding: 10px;
         background-size: 150% 200%;
     }
 
@@ -200,12 +208,17 @@ body {
 
     .stack ul{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
     }
 
     .stack ul li {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .stack ul li img {
+        width: 90%;
     }
 
     .stack ul li {
