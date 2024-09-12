@@ -168,28 +168,33 @@ body {
     }
 
     body {
-        padding: 10px;
+        padding: 20px;
         background-size: 150% 200%;
     }
 
     .about-me {
         flex-direction: column;
-        gap: 0px;
+        gap: 20px;
     }
 
     .about-me img {
         height: 100%;
     }
 
+
+    .about-me-text h1 {
+        font-size: 30px;
+    }
+
     .contact div {
         flex-direction: column;
         height: max-content;
-        width: 80%;
+        width: 75%;
     }
 
     .contact-list {
         padding-left: 0;
-        font-size: 13px;
+        font-size: 11px;
     }
 
     .section-list {
