@@ -83,6 +83,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -90,11 +91,12 @@ body {
     height: 25px;
 }
 
-.contact-list-item p {
+.contact-list-item span {
     font-weight: 700;
+    margin-right: -8px;
 }
 
-.contact-list-item p a {
+.contact-list-item a {
     font-weight: 400;
     text-decoration: none;
     color: #000000;
@@ -190,6 +192,10 @@ body {
         flex-direction: column;
         height: max-content;
         width: 75%;
+    }
+
+    .contact-list-item span {
+        /* display: none; */
     }
 
     .contact-list {
