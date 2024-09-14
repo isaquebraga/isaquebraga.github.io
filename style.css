@@ -267,7 +267,7 @@ body {
     }
 
     .stack ul li img {
-        width: 70%;
+        width: max-content;
     }
 
     .stack ul li p {
