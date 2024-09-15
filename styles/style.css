@@ -239,6 +239,7 @@ body {
 
     .about-me-text h1 {
         font-size: 30px;    
+        border-right: 10px solid #F5F5F5;
     }
 
     .about-me-text p {
