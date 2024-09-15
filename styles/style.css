@@ -24,8 +24,8 @@ body {
     width: 50px;
     cursor: pointer;
     transition: opacity 0.4s ease, visibility 0.4s ease;
-    visibility: hidden; 
-}   
+    visibility: hidden;
+}
 
 .back-to-top.visible {
     opacity: 1;
@@ -66,7 +66,7 @@ body {
 
     animation: mark .5s step-end infinite, write 5s steps(22, end) infinite;
 }
- 
+
 @keyframes mark {
     50% {
         border-right-color: transparent;
@@ -84,7 +84,7 @@ body {
 
     85% {
         width: 0;
-    } 
+    }
 
     100% {
         width: 0;
@@ -238,7 +238,7 @@ body {
     }
 
     .about-me-text h1 {
-        font-size: 30px;    
+        font-size: 30px;
         border-right: 10px solid #F5F5F5;
     }
 
