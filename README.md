@@ -24,7 +24,7 @@ O site está hospedado no GitHub Pages e pode ser acessado [aqui](https://isaque
 
 O site pode ser acessado diretamente através do seguinte link:
 
-[**Seu site no GitHub Pages**](https://isaquebraga.github.io)
+[Link da Página Pessoal](https://isaquebraga.github.io)
 
 ## Contribuição
 
