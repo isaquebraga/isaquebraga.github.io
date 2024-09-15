@@ -45,7 +45,7 @@ body {
 
 .about-me img {
     border-radius: 100%;
-    height: 250px;
+    height: 12rem;
     border: 5px solid #F5F5F5;
 }
 
@@ -53,11 +53,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
 }
 
 .about-me-text h1 {
-    font-size: 60px;
+    font-size: 2.5rem;
     width: 0;
     margin: 0;
     border-right: 20px solid #F5F5F5;
@@ -108,7 +107,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 0.8em;
     height: 70px;
     background-color: #ccd5ae;
     border-bottom: 1px solid #000000;
@@ -124,6 +123,7 @@ body {
         17.6px 17.6px 17.9px rgba(0, 0, 0, 0.03),
         33px 33px 33.4px rgba(0, 0, 0, 0.036),
         79px 79px 80px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
 }
 
 .contact-list-item {
@@ -159,6 +159,7 @@ body {
 .section-list h1 {
     margin: 0;
     padding: 0;
+    font-size: 1.5rem;
 }
 
 .section-list ul {
@@ -167,12 +168,12 @@ body {
 }
 
 .section-list-title {
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .section-list-text {
-    font-size: 15px;
+    font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 15px;
     padding-left: 25px;
@@ -198,7 +199,7 @@ body {
 }
 
 .stack ul li p {
-    font-size: 15px;
+    font-size: 0.8rem;
     margin: 0;
     margin-top: 10px;
     font-weight: 500;
@@ -238,12 +239,12 @@ body {
     }
 
     .about-me-text h1 {
-        font-size: 30px;
+        font-size: 2rem;
         border-right: 10px solid #F5F5F5;
     }
 
     .about-me-text p {
-        font-size: 15px;
+        font-size: 1rem;
     }
 
     .contact div {
@@ -274,7 +275,7 @@ body {
 
     .contact-list {
         padding-left: 0;
-        font-size: 11px;
+        font-size: 0.7rem;
     }
 
     .section-list {
@@ -288,21 +289,21 @@ body {
     }
 
     .section-list h1 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .section-list-title {
-        font-size: 14px;
+        font-size: 0.9rem;
     }
 
     .section-list-text {
-        font-size: 12px;
+        font-size: 0.7rem;
         padding-left: 10px;
     }
 
     .stack ul {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
         width: 100%;
     }
 
@@ -320,6 +321,6 @@ body {
     }
 
     .stack ul li p {
-        font-size: 12px;
+        font-size: 0.8rem;
     }
 }
