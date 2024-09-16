@@ -209,7 +209,7 @@ body {
     height: 50px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
     html {
         margin: 0;
         padding: 0;
@@ -255,7 +255,7 @@ body {
     }
 
     .contact-list-item {
-        gap: 5px;
+        gap: 7px;
     }
 
     .contact-list-item img {
@@ -275,7 +275,7 @@ body {
 
     .contact-list {
         padding-left: 0;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .section-list {
@@ -303,7 +303,7 @@ body {
 
     .stack ul {
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 30% 30% 30%;
         width: 100%;
     }
 
@@ -314,13 +314,10 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .stack ul li img {
         width: max-content;
-    }
-
-    .stack ul li p {
-        font-size: 0.8rem;
     }
 }
