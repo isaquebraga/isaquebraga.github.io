@@ -4,8 +4,9 @@ function isSafari() {
 }
 
 window.addEventListener('load', function () {
-    if (isSafari() && !localStorage.getItem('safariReloaded')) {
-        localStorage.setItem('safariReloaded', 'true');
-        window.location.reload();
+    if (isSafari()) {
+        setTimeout(function () {
+            window.location.reload();
+        }, 1000);
     }
 });
