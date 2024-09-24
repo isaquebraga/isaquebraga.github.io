@@ -5,6 +5,7 @@ function isSafari() {
 
 window.addEventListener('load', function () {
     if (isSafari()) {
+        alert("opa")
         setTimeout(function () {
             window.location.reload();
         }, 1000);
