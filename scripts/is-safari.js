@@ -3,6 +3,7 @@ function isSafari() {
     return ua.includes('safari') && !ua.includes('chrome');
 }
 
-if (isSafari()) {
+if (isSafari() && !localStorage.getItem('safariReloaded')) {
+    localStorage.setItem('safariReloaded', 'true');
     window.location.reload();
 }
