@@ -6,8 +6,10 @@ function isSafari() {
 if (isSafari()) {
     if (!sessionStorage.getItem('safariRefreshDone')) {
         window.addEventListener('load', function () {
-            location.reload();
-            sessionStorage.setItem('safariRefreshDone', 'true');
+            setTimeout(function () {
+                window.location.href = '/';
+                sessionStorage.setItem('safariRefreshDone', 'true');
+            }, 1000);
         });
     }
 }

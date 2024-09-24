@@ -59,7 +59,7 @@ body {
     font-size: 2.5rem;
     width: 0;
     margin: 0;
-    border-right: 1ch solid #F5F5F5;
+    border-right: 20px solid #F5F5F5;
     white-space: nowrap;
     overflow: hidden;
     user-select: none;
