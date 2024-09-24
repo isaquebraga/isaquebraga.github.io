@@ -3,7 +3,9 @@ function isSafari() {
     return ua.includes('safari') && !ua.includes('chrome');
 }
 
-if (isSafari() && !localStorage.getItem('safariReloaded')) {
-    localStorage.setItem('safariReloaded', 'true');
-    window.location.reload();
-}
+window.addEventListener('load', function () {
+    if (isSafari() && !localStorage.getItem('safariReloaded')) {
+        localStorage.setItem('safariReloaded', 'true');
+        window.location.reload();
+    }
+});
