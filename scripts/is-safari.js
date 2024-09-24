@@ -1,13 +1,13 @@
 function isSafari() {
-    var ua = navigator.userAgent.toLowerCase();
-    return ua.includes('safari') && !ua.includes('chrome');
+    const ua = navigator.userAgent;
+    return /^(?!.*Chrome|.*Firefox|.*Opera).*Safari/.test(ua);
 }
 
-window.addEventListener('load', function () {
-    if (isSafari() && !localStorage.getItem('safariReloadedOnce')) {
-        setTimeout(function () {
-            localStorage.setItem('safariReloadedOnce', 'true');
-            window.location.reload();
-        }, 1000);
+if (isSafari()) {
+    if (!sessionStorage.getItem('safariRefreshDone')) {
+        window.addEventListener('load', function () {
+            location.reload();
+            sessionStorage.setItem('safariRefreshDone', 'true');
+        });
     }
-});
+}
