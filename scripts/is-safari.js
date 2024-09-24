@@ -9,7 +9,7 @@ if (isSafari()) {
             setTimeout(function () {
                 window.location.href = '/';
                 sessionStorage.setItem('safariRefreshDone', 'true');
-            }, 1000);
+            }, 1);
         });
     }
 }
